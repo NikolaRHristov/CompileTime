@@ -1,0 +1,7 @@
+{
+	"compilerOptions": {
+		"outDir": "Target"
+	},
+	"extends": "typescript-esbuild/Target/Notation/TypeScript",
+	"include": ["Source"]
+}

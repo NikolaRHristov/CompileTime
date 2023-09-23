@@ -1,0 +1,14 @@
+{
+	"name": "compile-time",
+	"version": "0.0.1",
+	"private": false,
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*'"
+	},
+	"devDependencies": {
+		"typescript-esbuild": "0.1.16"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
